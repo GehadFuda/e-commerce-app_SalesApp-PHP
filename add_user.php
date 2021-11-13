@@ -1,6 +1,6 @@
 <?php
 
-$con=new mysqli("localhost","root","","SalesWeb");
+$con=new mysqli("localhost","id17934349_root","123456789@GoGo","id17934349_salesweb");
 $st_check=$con->prepare("select * from users where mobile=?");
 $st_check->bind_param("s", $_GET["mobile"]);
 $st_check->execute();

@@ -1,6 +1,6 @@
 <?php
 
-$con=new mysqli("localhost","root","","SalesWeb");
+$con=new mysqli("localhost","id17934349_root","123456789@GoGo","id17934349_salesweb");
 $st_check=$con->prepare("SELECT * FROM users WHERE mobile=? AND password=?");
 $st_check->bind_param("ss", $_POST["mobile"], $_POST["password"]);
 $st_check->execute();

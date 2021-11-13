@@ -1,6 +1,6 @@
 <?php
 
-$con=new mysqli("localhost","root","","SalesWeb");
+$con=new mysqli("localhost","id17934349_root","123456789@GoGo","id17934349_salesweb");
 $st=$con->prepare("select * from items where category=?");
 $st->bind_param("s", $_GET["category"]);
 $st->execute();

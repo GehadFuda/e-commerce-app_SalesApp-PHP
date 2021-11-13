@@ -1,6 +1,6 @@
 <?php
 
-$con=new mysqli("localhost","root","","SalesWeb");
+$con=new mysqli("localhost","id17934349_root","123456789@GoGo","id17934349_salesweb");
 $st=$con->prepare("SELECT price,quantity FROM items INNER JOIN bill_details ON items.id=bill_details.item_id WHERE bill_details.bill_no=?");
 $st->bind_param("i", $_GET["bill_no"]);
 $st->execute();

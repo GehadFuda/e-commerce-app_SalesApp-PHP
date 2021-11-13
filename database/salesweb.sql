@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.5
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: Jul 02, 2020 at 02:17 PM
--- Server version: 10.1.38-MariaDB
--- PHP Version: 7.3.3
+-- Host: localhost:3306
+-- Generation Time: Nov 12, 2021 at 10:03 PM
+-- Server version: 5.7.33
+-- PHP Version: 7.4.19
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -138,7 +137,7 @@ CREATE TABLE `users` (
 INSERT INTO `users` (`mobile`, `password`, `name`, `address`, `access_token`) VALUES
 ('0788030600', '123456', 'Dhoyazan', 'aden', ''),
 ('0781234567', '123456', 'Mariam', 'aden', ''),
-('01068009844', '123456', 'Gehad', 'Egypt', '10a118e281d155567dd63c3af6855fa06240edcefcee81af7b4b894045a189d71d16ecf384efe381c534093f2ea6e3376e9a1dd2fcde983cb413eed94521fc13');
+('01068009844', '123456', 'Gehad', 'Egypt', 'de561abbee1f7ee30598cf30a17f7926d11fb84824191c0d6e511376256cf0e800c3d7cc07a8e7308cf4df9a1c600866955c74c71c9d5650d9405bb8ff0839c0');
 
 --
 -- Indexes for dumped tables
